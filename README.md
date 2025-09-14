@@ -41,10 +41,17 @@ Finally, the program visualizes the results by plotting both the original data p
 
 1. Download the latest LinearRegression folder (includes all files and the batch file).
 2. Make sure Python 3.x is installed and added to your system PATH.
-3. Open the folder and double-click run_sentiment_analyzer.bat to start the application.
-   
-On first run, the batch file will install the required Python packages (from requirements.txt) and download the Hugging Face models (Internet connection required). After that, the app works offline.
-Place your dataset as data.csv in the project folder(The CSV must contain at least two columns)
+3. Open the folder and double-click **`run_linear_regression.bat`** to start the application.
+
+On the first run, the batch file will automatically install the required Python packages (from `requirements.txt`). After that, the app works offline.
+
+👉 Remember to place your dataset as **`data.csv`** in the project folder.
+The CSV file must contain at least two columns:
+
+* `studytime` → hours of study
+* `score` → exam/test score
+
+---
 
 # 📷 Usage Examples
 **Example Output (Console)**<br>
