@@ -42,7 +42,7 @@ On first run, the batch file will install the required Python packages (from req
 Place your dataset as data.csv in the project folder(The CSV must contain at least two columns)
 
 # 📷 Usage Examples
-![App Screenshot](img/result.png)<br>
+<br>![App Screenshot](img/result.png)<br>
 
 **Example Output (Console)**
 Epoch: 0, Errore: 250.36
@@ -52,7 +52,7 @@ Epoch: 100, Errore: 98.54
 Valori finali: 1.23  10.45
 
 **Graphical Output**
-![App Screenshot](img/graph.png)<br>
+<br>![App Screenshot](img/graph.png)<br>
 
 The script will plot:
 
