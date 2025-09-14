@@ -42,17 +42,17 @@ On first run, the batch file will install the required Python packages (from req
 Place your dataset as data.csv in the project folder(The CSV must contain at least two columns)
 
 # 📷 Usage Examples
-Run the script
-python linear_regression.py
+![App Screenshot](img/result.png)<br>
 
-Example Output (Console)
+**Example Output (Console)**
 Epoch: 0, Errore: 250.36
 Epoch: 50, Errore: 145.82
 Epoch: 100, Errore: 98.54
 ...
 Valori finali: 1.23  10.45
 
-Graphical Output
+**Graphical Output**
+![App Screenshot](img/graph.png)<br>
 
 The script will plot:
 
@@ -60,7 +60,7 @@ The script will plot:
 
 🔴 Best-fit regression line (calculated via gradient descent)
 
-📄 License
+# 📄 License
 
 Released under the MIT License.
 Feel free to use, modify, and share 🚀
