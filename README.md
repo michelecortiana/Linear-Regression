@@ -17,16 +17,21 @@
 
 # 📌 Overview
 
-**Linear Regression Project** is a simple implementation of **linear regression** using **Python**, built **from scratch** without libraries like `scikit-learn`.  
+**Linear Regression Project** is a simple implementation of **linear regression** using **Python**, built **from scratch** without libraries like `scikit-learn`.
 
-The project demonstrates:  
-- 📊 Calculation of the **Mean Squared Error (MSE)**  
-- 🔄 Parameter optimization using **Gradient Descent**  
-- 📈 Visualization of the regression line compared to real data  
+In this project, the algorithm tries to find the **best-fit line** that describes the relationship between two variables:
 
-Dataset example:  
-- `studytime` → hours of study  
-- `score` → exam/test score  
+* `studytime` → hours of study
+* `score` → exam/test score
+
+The process works as follows:
+
+1. The line is defined as **y = m·x + b**, where *m* is the slope and *b* the intercept.
+2. The **Mean Squared Error (MSE)** measures how far the predicted values are from the real data points.
+3. Using **Gradient Descent**, the values of *m* and *b* are updated step by step to minimize the error.
+4. After several iterations, the algorithm converges to the line that best approximates the dataset.
+
+Finally, the program visualizes the results by plotting both the original data points and the regression line📈
 
 ---
 
