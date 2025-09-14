@@ -34,18 +34,12 @@ Dataset example:
 
 **⚠️ Python 3.x is required on the machine to run this project.**
 
-1. Clone this repository or download the folder.  
-   ```bash
-   git clone https://github.com/yourusername/linear-regression.git
+1. Download the latest LinearRegression folder (includes all files and the batch file).
 2. Make sure Python 3.x is installed and added to your system PATH.
-
-3. Install required dependencies (only pandas and matplotlib):
-
-4. pip install pandas matplotlib
-
-
-Place your dataset as data.csv in the project folder.
-The CSV must contain at least two columns.
+3. Open the folder and double-click run_sentiment_analyzer.bat to start the application.
+   
+On first run, the batch file will install the required Python packages (from requirements.txt) and download the Hugging Face models (Internet connection required). After that, the app works offline.
+Place your dataset as data.csv in the project folder(The CSV must contain at least two columns)
 
 # 📷 Usage Examples
 Run the script
